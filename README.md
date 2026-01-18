@@ -19,10 +19,4 @@ Krishi Connect is a platform designed to help farmers access real-time market pr
 * Project for **Agri Expo Hackathon**.
 * Focuses on **Digital Inclusion** for rural India.
 
----
-**Contributors:**
-* [Baljeet Kumar Patel]
-* [Shaik Sania Tehseen]
-* [Saksham Agrawal]
-* [Neha Myageri]
-* [Vivek S M]
+
