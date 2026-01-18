@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "./styles/animations.css";
+
+:root {
+  --bg: #f8fafc;
+  --primary: #16a34a;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: #0f172a;
+}
+
+/* Basic container styles for the layout components we generated */
+.bg-green-600 { background-color: var(--primary); }
+.bg-white { background: #ffffff; }
+.text-white { color: #ffffff; }
+
+/* Simple utility classes used by components (if not using Tailwind) */
+.p-6 { padding: 1.5rem; }
+.p-4 { padding: 1rem; }
+.mt-3 { margin-top: .75rem; }
+.mb-4 { margin-bottom: 1rem; }
+.rounded { border-radius: .5rem; }
+.shadow { box-shadow: 0 6px 18px rgba(2,6,23,0.08); }
+.w-full { width: 100%; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.bot-message {
+  white-space: pre-line;   /* NEW LINE show hoga */
+}

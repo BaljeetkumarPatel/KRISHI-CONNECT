@@ -1,0 +1,41 @@
+[
+  {
+    "phone": "9876543210",
+    "role": "farmer",
+    "pincode": "560001",
+    "pinHash": "$2b$10$abc123hashedPINexample",
+    "language": "hi",
+    "verified": true,
+    "rating": {
+      "totalRating": 10,
+      "count": 2
+    },
+    "createdAt": "2025-12-04T09:30:00.000Z"
+  },
+  {
+    "phone": "9123456780",
+    "role": "labour",
+    "pincode": "110011",
+    "pinHash": "$2b$10$xyz789hashedPINexample",
+    "language": "en",
+    "verified": false,
+    "rating": {
+      "totalRating": 0,
+      "count": 0
+    },
+    "createdAt": "2025-12-04T10:10:00.000Z"
+  },
+  {
+    "phone": "9090909090",
+    "role": "driver",
+    "pincode": "400001",
+    "pinHash": "$2b$10$test987hashedPINexample",
+    "language": "hi",
+    "verified": true,
+    "rating": {
+      "totalRating": 25,
+      "count": 5
+    },
+    "createdAt": "2025-12-04T11:00:00.000Z"
+  }
+]
